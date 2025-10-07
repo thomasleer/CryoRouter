@@ -76,7 +76,6 @@ public struct RouterView<Content: View>: View, @MainActor Router {
                 // This means we are in a secondary RouterView
                 screenStack.append(destination)
             }
-            path.append(destination)
         case .sheet:
             showSheet = destination
         case .fullScreenCover:
