@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import UIKit
 
 extension View {
     func sheetViewModifier(screen: Binding<AnyDestination?>) -> some View {
